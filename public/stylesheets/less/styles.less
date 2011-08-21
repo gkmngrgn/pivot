@@ -1,7 +1,12 @@
 @header-height: 60px;
+@footer-height: 40px;
 
 body {
     background-color: #eee;
+}
+
+a {
+    text-decoration: none;
 }
 
 #header {
@@ -10,6 +15,23 @@ body {
 
     h1 {
         line-height: @header-height;
+        color: #eee;
+
+        a {
+            color: #eee;
+        }
+    }
+}
+
+#footer {
+    height: @footer-height;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+
+    p {
+        line-height: @footer-height;
         color: #eee;
     }
 }
