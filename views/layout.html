@@ -1,8 +1,15 @@
 <html>
   <head>
     <title>Express - MVC Example</title>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/stylesheets/outsource/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="/stylesheets/outsource/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" href="/stylesheets/outsource/ie.css" type="text/css" media="screen, projection">
+    <![endif]-->
+    <link rel="stylesheet/less" type="text/css" href="/stylesheets/less/styles.less">
+    <script src="/javascripts/outsource/less.js" type="text/javascript"></script>
   </head>
+
   <body>
     <%- body %>
   </body>
